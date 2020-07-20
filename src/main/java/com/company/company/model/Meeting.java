@@ -30,7 +30,7 @@ public class Meeting {
     public long getDuurInMinuten() {
         return duurInMinuten;
     }
-    public void setAddress(long minuten) {
+    public void setDuurInMinuten(long minuten) {
         this.duurInMinuten = minuten;
     }
 }
