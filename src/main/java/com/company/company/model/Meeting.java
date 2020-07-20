@@ -30,7 +30,12 @@ public class Meeting {
     public long getDuurInMinuten() {
         return duurInMinuten;
     }
+<<<<<<< HEAD
     public void setDuurInMinuten(long minuten) {
         this.duurInMinuten = minuten;
+=======
+    public void setDuurInMinuten(long duurInMinuten) {
+        this.duurInMinuten = duurInMinuten;
+>>>>>>> master
     }
 }
