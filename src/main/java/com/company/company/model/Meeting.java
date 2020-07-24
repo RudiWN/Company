@@ -8,7 +8,7 @@ import javax.persistence.Id;
 @Entity
 public class Meeting {
     @Id
-    @GeneratedValue(strategy= GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     long id;
 
     long lokaal;
@@ -18,18 +18,23 @@ public class Meeting {
     public long getId() {
         return id;
     }
+
     public void setId(long id) {
         this.id = id;
     }
+
     public long getLokaal() {
         return lokaal;
     }
+
     public void setLokaal(long name) {
         this.lokaal = lokaal;
     }
+
     public long getDuurInMinuten() {
         return duurInMinuten;
     }
+
     public void setDuurInMinuten(long duurInMinuten) {
         this.duurInMinuten = duurInMinuten;
     }
