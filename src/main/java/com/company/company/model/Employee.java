@@ -18,7 +18,7 @@ import javax.persistence.Table;
 public class Employee {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.AUTO) //set identity for start at 1 per table
     private long id;
     private String name;
     private double salary;
